@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A student developer portfolio documenting a BSc CSIT learning journey, web projects, and progress.">
+  <meta name="author" content="Bibek Shrestha">
+  <meta name="theme-color" content="#0b0d12">
+  <title>Bibek Shrestha | Student Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Bibek Shrestha home"><span>&lt;</span>BS<span>/&gt;</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle navigation</span><i></i><i></i><i></i>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+        <a href="#journey">Journey</a><a href="#contact" class="nav-cta">Let's connect <span>↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section id="home" class="hero container">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="pulse"></span> Available for learning &amp; building</p>
+        <h1>Learning to build<br><em>the web,</em> one project<br>at a time.</h1>
+        <p class="hero-text">I'm a BSc CSIT student and aspiring web developer. I’m learning the fundamentals, turning ideas into small projects, and getting a little better every day.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">View my projects <span>↓</span></a>
+          <a class="button button-ghost" href="https://github.com/" target="_blank" rel="noreferrer">Visit GitHub <span>↗</span></a>
+        </div>
+        <div class="hero-meta"><span>Based in Nepal</span><span class="dot"></span><span>Open to learning</span></div>
+      </div>
+      <div class="hero-art reveal" aria-label="Decorative code illustration" role="img">
+        <div class="code-card"><div class="window-bar"><b></b><b></b><b></b><span>learning.js</span></div>
+          <pre><code><span class="pink">const</span> <span class="cyan">developer</span> = {
+  name: <span class="green">'Bibek Shrestha'</span>,
+  focus: <span class="green">'web development'</span>,
+  learning: [
+    <span class="green">'HTML'</span>, <span class="green">'CSS'</span>,
+    <span class="green">'JavaScript'</span>
+  ],
+  <span class="cyan">keepGoing</span>: <span class="purple">true</span>
+};</code></pre>
+        </div><span class="art-orbit orbit-one"></span><span class="art-orbit orbit-two"></span>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-heading reveal"><p class="eyebrow">01 / About me</p><h2>Curious by nature.<br><em>Committed to growth.</em></h2></div>
+      <div class="about-grid"><div class="about-lead reveal"><p class="large-copy">I’m a student who believes the best way to learn code is to use it. I enjoy understanding how things work, solving problems, and making ideas feel real in a browser.</p><p>Right now, I’m focused on building a strong foundation in front-end development while exploring what it takes to become a skilled full-stack developer.</p></div>
+        <div class="about-facts reveal"><div><strong>01</strong><span>Student<br>developer</span></div><div><strong>∞</strong><span>Things left<br>to learn</span></div><div><strong>100%</strong><span>Genuine<br>effort</span></div></div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-muted"><div class="container">
+      <div class="section-heading split reveal"><div><p class="eyebrow">02 / Current toolkit</p><h2>Tools I’m learning<br><em>to think with.</em></h2></div><p class="section-note">A growing toolkit, not a finished list. I’m adding new skills as I understand the fundamentals behind them.</p></div>
+      <div class="skills-grid reveal">
+        <article class="skill-card"><span class="skill-number">01</span><span class="skill-icon">&lt;/&gt;</span><h3>HTML</h3><p>Semantic structure, accessible content, and clean page foundations.</p><span class="skill-level">Comfortable with</span></article>
+        <article class="skill-card accent"><span class="skill-number">02</span><span class="skill-icon">✦</span><h3>CSS</h3><p>Responsive layouts, reusable styles, and thoughtful visual details.</p><span class="skill-level">Comfortable with</span></article>
+        <article class="skill-card"><span class="skill-number">03</span><span class="skill-icon">{ }</span><h3>JavaScript</h3><p>Fundamentals, events, arrays, functions, and making pages interactive.</p><span class="skill-level">Building confidence</span></article>
+        <article class="skill-card"><span class="skill-number">04</span><span class="skill-icon">⌘</span><h3>Git &amp; GitHub</h3><p>Version control, repositories, and sharing the work behind my projects.</p><span class="skill-level">Building confidence</span></article>
+      </div>
+      <div class="up-next reveal"><span>Next on my roadmap</span><b>React</b><b>Node.js</b><b>Databases</b><i>+</i></div>
+    </div></section>
+
+    <section id="projects" class="section container"><div class="section-heading split reveal"><div><p class="eyebrow">03 / Selected projects</p><h2>Small projects.<br><em>Real progress.</em></h2></div><p class="section-note">Every project is a chance to practice, make mistakes, and understand something I didn’t know yesterday.</p></div>
+      <div class="projects-grid">
+        <article class="project-card featured reveal"><div class="project-visual guess"><span class="visual-label">Interactive game</span><div class="game-screen"><span>GUESS THE NUMBER</span><strong>?</strong><small>Enter your guess</small><div class="fake-input"></div></div></div><div class="project-content"><div class="project-title"><span>01</span><h3>Number Guessing Game</h3></div><p>A beginner-friendly browser game practicing JavaScript logic, user input, and feedback.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="#" aria-label="Number Guessing Game GitHub repository">GitHub ↗</a><a href="#" aria-label="Number Guessing Game live demo">Live demo ↗</a></div></div></article>
+        <article class="project-card reveal"><div class="project-visual bmi"><span class="visual-label">Utility tool</span><div class="bmi-screen"><span>BMI CALCULATOR</span><div class="bmi-line"></div><div class="bmi-box"><b>22.4</b><small>Normal range</small></div></div></div><div class="project-content"><div class="project-title"><span>02</span><h3>BMI Calculator</h3></div><p>A simple calculator that turns form input into a clear, useful result.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="#">GitHub ↗</a><a href="#">Live demo ↗</a></div></div></article>
+        <article class="project-card reveal"><div class="project-visual future"><span class="visual-label">Coming soon</span><div class="future-screen"><span>PROJECT_03</span><strong>+</strong><small>Something new is loading...</small></div></div><div class="project-content"><div class="project-title"><span>03</span><h3>Future JavaScript Project</h3></div><p>This space is reserved for the next idea I build while learning JavaScript.</p><div class="tags"><span>Learning</span><span>Experiment</span></div><div class="project-links"><a href="#contact">Suggest an idea ↗</a></div></div></article>
+      </div>
+    </section>
+
+    <section id="journey" class="section section-muted"><div class="container journey-layout"><div class="section-heading reveal"><p class="eyebrow">04 / Learning journey</p><h2>Not rushing.<br><em>Just moving forward.</em></h2><p class="section-note">The goal isn’t to know everything. It’s to keep showing up, stay curious, and build the next thing.</p></div><div class="timeline reveal"><div class="timeline-item active"><span class="timeline-dot"></span><small>NOW / CURRENT FOCUS</small><h3>Building the foundation</h3><p>Learning HTML, CSS, JavaScript fundamentals, and creating small projects to put them into practice.</p></div><div class="timeline-item"><span class="timeline-dot"></span><small>NEXT UP</small><h3>Going deeper with JavaScript</h3><p>Strengthening DOM manipulation, APIs, asynchronous code, and writing more maintainable programs.</p></div><div class="timeline-item"><span class="timeline-dot"></span><small>ON THE HORIZON</small><h3>Exploring the full stack</h3><p>When the foundation is ready, I’ll explore React, Node.js, and databases through new projects.</p></div></div></div></section>
+
+    <section id="contact" class="contact-section container">
+      <div class="contact-card reveal">
+        <div>
+          <p class="eyebrow">05 / Say hello</p>
+          <h2>Let’s learn and<br><em>build together.</em></h2>
+          <p>I’m always happy to connect with fellow learners, get thoughtful feedback, or talk about the next thing we’re building.</p>
+        </div>
+        <div>
+          <div class="contact-links">
+            <a href="mailto:your.email@example.com"><span>✉</span>your.email@example.com <b>↗</b></a>
+          </div>
+          <p class="social-heading">Find me online</p>
+          <div class="social-links">
+            <a href="https://github.com/Iteronix" target="_blank" rel="noreferrer" aria-label="Visit Bibek's GitHub profile"><span>◉</span>GitHub <b>↗</b></a>
+            <a href="mailto:bibekshrsth2020@gmail.com" aria-label="Email Bibek via Gmail"><span>✉</span>Gmail <b>↗</b></a>
+            <a href="https://www.instagram.com/04b_vek/" target="_blank" rel="noreferrer" aria-label="Visit Bibek's Instagram profile"><span>◎</span>Instagram <b>↗</b></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-wrap"><a class="brand" href="#home"><span>&lt;</span>BS<span>/&gt;</span></a><p>Learning out loud. Building with purpose.</p><span>© <span id="year">2026</span> Bibek Shrestha</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
